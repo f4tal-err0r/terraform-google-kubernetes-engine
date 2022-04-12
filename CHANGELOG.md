@@ -6,6 +6,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Extending the adopted spec, each change should have a link to its corresponding pull request appended.
 
+## [20.1.0](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/compare/v20.0.0...v20.1.0) (2022-04-12)
+
+
+### Features
+
+* Add `filestore_csi_driver` option for safer cluster variants ([#1176](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1176)) ([40ef1a1](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/40ef1a178281ab967ed60ddf1a28304a76e8982d))
+* Add app.kubernetes.io/created-by label to CPR in ASM module ([#1190](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1190)) ([bbd9b77](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/bbd9b770987b6e8e502ce3747ccc6ce0a96e79c1))
+* Add support for image streaming/GCFS ([#1174](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1174)) ([3a94528](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/3a94528701a06b99bbb02274c3a75012eeae72ea))
+
+
+### Bug Fixes
+
+* add provider_meta for google-beta to ASM submodule ([#1186](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1186)) ([9f06ef4](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/9f06ef4562adcc9096fbf2da6041746d3d08c483))
+* Apply applicable ASM_OPTS in config_map ([#1183](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1183)) ([79d604a](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/79d604aa40db27e17a679eaf4902fedf6de7cf67))
+* make GKE module cluster_name computed attribute ([#1189](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1189)) ([7a09acd](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/7a09acdecb0c13657194579ee3446a6e2fe1421e))
+* removed unused variable ip_source_ranges_ssh from example safer_cluster_iap_bastion ([#1199](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1199)) ([5197f22](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/5197f2214bff1693a0d469d66f3430a994d6a885))
+
 ## [20.0.0](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/compare/v19.0.0...v20.0.0) (2022-03-10)
 
 
